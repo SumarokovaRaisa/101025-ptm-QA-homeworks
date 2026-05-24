@@ -40,3 +40,4 @@ class LoginPage:
        self.enter_password(password)
        self.click_on_login_button()
        assert "inventory.html" in self.driver.current_url
+
